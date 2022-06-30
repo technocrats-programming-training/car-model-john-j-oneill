@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Compilation Test",
+      "setup": "",
+      "run": "javac Car.java",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Accuracy Test (Prints Model)",
+      "setup": "rm -rf *.class",
+      "run": "java Car.java",
+      "input": "Honda CR-V\r\n25\r\n12\r\n38\r\n2\r\n3",
+      "output": "Honda CR-V",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Accuracy Test (Prints Range)",
+      "setup": "rm -rf *.class",
+      "run": "java Car.java",
+      "input": "Honda CR-V\r\n25\r\n12\r\n38\r\n2\r\n3",
+      "output": "300.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Accuracy Test (Prints Gas Level)",
+      "setup": "rm -rf *.class",
+      "run": "java Car.java",
+      "input": "Honda CR-V\r\n25\r\n12\r\n38\r\n2\r\n3",
+      "output": "12.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Accuracy Test (Prints remaining gas)",
+      "setup": "rm -rf *.class",
+      "run": "java Car.java",
+      "input": "Honda CR-V\r\n25\r\n12\r\n38\r\n2\r\n3",
+      "output": "10.48",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Accuracy Test (prints remaining range)",
+      "setup": "rm -rf *.class",
+      "run": "java Car.java",
+      "input": "Honda CR-V\r\n25\r\n12\r\n38\r\n2\r\n3",
+      "output": "262.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Accuracy Test (prints remaining gas 2)",
+      "setup": "rm -rf *.class",
+      "run": "java Car.java",
+      "input": "Honda CR-V\r\n25\r\n12\r\n38\r\n2\r\n3",
+      "output": "12.36",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Accuracy Test (prints remaining range 2)",
+      "setup": "rm -rf *.class",
+      "run": "java Car.java",
+      "input": "Honda CR-V\r\n25\r\n12\r\n38\r\n2\r\n3",
+      "output": "309.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
