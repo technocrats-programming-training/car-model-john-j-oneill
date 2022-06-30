@@ -21,7 +21,7 @@
       "points": 1
     },
     {
-      "name": "Accuracy Test (Prints Range)",
+      "name": "Accuracy Test &#40;Prints Range&#41;",
       "setup": "rm -rf *.class",
       "run": "java Car.java",
       "input": "Honda CR-V\r\n25\r\n12\r\n38\r\n2\r\n3",
