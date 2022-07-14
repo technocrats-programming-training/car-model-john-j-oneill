@@ -53,21 +53,21 @@ public class Car {
     public void drive(double distance) {
         // drive for distance (in miles), and update gas tank level accordingly (using mpg)
       _gasTankAmount -= distance / _mpg;
-      if(_gasTankAmount < 0.0)
-      {
-        System.out.println("You ran out of gas, you idiot!!");
-        _gasTankAmount = 0.0;
-      }
+      // if(_gasTankAmount < 0.0)
+      // {
+      //   //System.out.println("You ran out of gas, you idiot!!");
+      //   _gasTankAmount = 0.0;
+      // }
     }
 
     public void refuel(double gasAmount) {
         // Add gasAmount of gas to the gas tank
       _gasTankAmount += gasAmount;
-      if(_gasTankAmount > _gasTankCapacity)
-      {
-        System.out.println("You tried to put too much gas in, it spilled on the ground and you caught fire and died.");
-        _gasTankAmount = _gasTankCapacity;
-      }
+      // if(_gasTankAmount > _gasTankCapacity)
+      // {
+      //   //System.out.println("You tried to put too much gas in, it spilled on the ground and you caught fire and died.");
+      //   _gasTankAmount = _gasTankCapacity;
+      // }
     }
 
     public double getGasRemaining() {
